@@ -2,5 +2,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+.head-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 1.5%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logo h1{
+    text-wrap: nowrap;
+    font-weight: bold;
+}
+
+.logo .log-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.for-log{
+    margin-right: 20px;
+}
+
+.for-text h1 span{
+    color: rgb(6, 156, 6);
+}
+
+.for-text .yellow{
+    color: rgb(56, 89, 254);
+}
+
+.log-part{
+    margin-right: 100px;
+}
+
+.log-part input{
+    border: 1px solid rgb(2, 2, 36);
+    outline: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    background-color: rgb(60, 58, 58);
+    color: white;
+}
+
+.log-part button{
+    border: none;
+    background-color: rgb(6, 188, 6);
+    color: white;
+    padding: 4px 20px;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.log-part button:hover{
+    background-color: rgb(6, 154, 6);
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .head-part{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .logo{
+        flex-direction: column;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .for-log{
+        width: 25px;
+        height: 25px;
+        margin-right: 70px;
+    }
+   
+    .log-part{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .for-text h1{
+        font-size: 20px;
+    }
+}
+
 
