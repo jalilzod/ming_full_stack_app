@@ -79,7 +79,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        row-gap: 10px;
+        row-gap: 15px;
     }
     .logo{
         flex-direction: column;
@@ -101,11 +101,35 @@
         margin: 0;
         display: flex;
         flex-direction: column;
-        row-gap: 20px;
+        row-gap: 5px;
     }
     .for-text h1{
         font-size: 20px;
     }
 }
 
+.main-body{
+    height: 70vh;
+}
 
+.bottom{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(166, 158, 158);
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    row-gap: 5px;
+}
+.bottom  p{
+    display: inline-block;
+}
+
+.insta-link{
+    text-decoration: none;
+    color: rgb(166, 158, 158);
+}
