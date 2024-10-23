@@ -13,5 +13,5 @@ exports.about = (req,res)=>{
 
 
 exports.main = (req,res)=>{
-    res.send('Main');
+    res.render('main');
 }

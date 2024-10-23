@@ -108,9 +108,6 @@
     }
 }
 
-.main-body{
-    height: 70vh;
-}
 
 .bottom{
     background-color: black;
@@ -132,4 +129,130 @@
 .insta-link{
     text-decoration: none;
     color: rgb(166, 158, 158);
+}
+
+
+.head-part{
+    margin-bottom: 60px;
+}
+
+.main-body1{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.about{
+    width: 70%;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h1{
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+
+
+.green{
+    color: rgb(5, 200, 5);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.red{
+    color: rgb(234, 14, 43);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dream{
+    background-color: rgb(38, 98, 248);
+    border-radius: 10px;
+    padding: 1rem 0rem;
+    text-wrap: wrap;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.weHelp{
+    color: rgb(255, 255, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.dream2{
+    background-color: white;
+    color: black;
+}
+
+.blue{
+    color: rgb(31, 91, 243);
+    font-weight: bold;
+}
+.contact{
+    text-decoration: none;
+    background-color: rgba(16, 97, 248, 0.937);
+    color: white;
+    padding: 0.2rem 0.3rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.contact:hover{
+    background-color: rgba(7, 77, 208, 0.937);
+}
+
+.register{
+    width: 50%;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.register input{
+    outline: none;
+    border: 1px solid rgb(149, 151, 154);
+    padding-left: 0.3rem;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 0.2rem 0.3rem;
+}
+
+.registerBtn{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.registerBtn:hover{
+    background-color: rgb(9, 9, 205);
+    cursor: pointer;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width:700px){
+    .main-body1{
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
 }
